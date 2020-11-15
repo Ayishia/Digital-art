@@ -53,6 +53,29 @@ p {
   text-align: center;
 }
 
+Nav{
+  width:100%;
+  Background: #262626;
+  Overflow: hidden;
+  Position: fixed;
+  Top: 0;
+}
+Ul{
+  Padding: 4;
+  Margin:1;
+  List-style:none;
+}
+Li{
+  Float: left;
+}
+a{
+  Padding:0px;
+  width:100px;
+  display:Block;
+  text-decoration:none;
+  color: #fff;
+  text-transform: uppercase;
+}
 footer {
   text-align: center;
 }
