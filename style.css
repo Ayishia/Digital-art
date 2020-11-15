@@ -19,8 +19,6 @@
   object-position: right;
 }
 
-/* Decoration */
-
 * {
   box-sizing: border-box;
 }
@@ -53,31 +51,29 @@ p {
   text-align: center;
 }
 
-Nav{
-  width:100%;
-  Background: #262626;
-  Overflow: hidden;
-  Position: fixed;
-  Top: 0;
+nav {
+  width: 100%;
+  background: #262626;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
 }
-Ul{
-  Padding: 4;
-  Margin:1;
-  List-style:none;
+ul {
+  padding: 4;
+  margin: 0;
+  list-style: none;
 }
-Li{
-  Float: left;
+li {
+  float: left;
 }
-a{
-  Padding:0px;
-  width:100px;
-  display:Block;
-  text-decoration:none;
+a {
+  padding: 0px;
+  width: 100px;
+  display: Block;
+  text-decoration: none;
   color: #fff;
   text-transform: uppercase;
 }
 footer {
   text-align: center;
 }
-
-  
