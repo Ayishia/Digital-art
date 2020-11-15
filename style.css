@@ -1,0 +1,15 @@
+H1{
+  font-size:70px;
+  text-align:center;
+  
+}
+.gallery{
+  margin: 5px;
+  border: 1px soild #ccc;
+  Float: left;
+  width: 390px;
+}
+.gallery img{
+  width: 100%
+    height: auto;
+}
