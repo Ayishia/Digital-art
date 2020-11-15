@@ -1,8 +1,6 @@
-
-
 .container {
   display: grid;
-  grid-gap: 8.0rem;
+  grid-gap: 8rem;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .container img {
@@ -21,10 +19,11 @@
   object-position: right;
 }
 
-
 /* Decoration */
 
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 2rem;
   background: #fff;
@@ -32,7 +31,8 @@ body {
   font-size: 1.2em;
 }
 
-.container, .container > img {
+.container,
+.container > img {
   padding: 1px;
   color: #fff;
 }
@@ -42,17 +42,17 @@ body {
   border: 1px solid #ddd;
 }
 
-
 h1 {
   font-size: 70px;
-  Letter-spacing: 10px;
+  letter-spacing: 10px;
   color: #000;
   text-align: center;
   font-family: "Lucida Console", Courier, monospace;
-
 }
-p {text-align: center;}
+p {
+  text-align: center;
+}
 
-Footer{
-  Text-align:center;
+footer {
+  text-align: center;
 }
