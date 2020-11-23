@@ -1,56 +1,4 @@
-.container {
-  display: grid;
-  grid-gap: 20rem;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
-.container img {
-  max-width: 100%;
-  align-self: stretch;
-  justify-self: stretch;
-  object-fit: cover;
-}
-.portrait {
-  grid-row: auto / span 2;
-}
-.fit-left {
-  object-position: left;
-}
-.fit-right {
-  object-position: right;
-}
-
-* {
-  box-sizing: border-box;
-}
-body {
-  margin: 2rem;
-  background: #fff;
-  font-family: arial, sans-serif;
-  font-size: 1.2em;
-}
-
-.container,
-.container > img {
-  padding: 1px;
-  color: #fff;
-}
-.container > img {
-  margin: 8px;
-  background: #fff;
-  border: 1px solid #ddd;
-}
-
-h1 {
-  font-size: 70px;
-  letter-spacing: 10px;
-  color: #000;
-  text-align: center;
-  font-family: "Lucida Console", Courier, monospace;
-}
-p {
-  text-align: center;
-}
-
+/* Start http://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-1/hol91.ani), url(http://cur.cursors-4u.net/holidays/hol-1/hol91.png), auto !important;} /* End http://www.cursors-4u.com */
 nav {
   width: 100%;
   background: #262626;
@@ -74,6 +22,33 @@ a {
   color: #fff;
   text-transform: uppercase;
 }
-footer {
+h1{
   text-align: center;
+    text-weight:bold;
+  Font-size: 70px;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  font-size: 30px;
+}
+p2{
+  font-size: 50px;
+}
+p3{
+  font-size: 50px;
+}
+
+P4{
+  font-size: 50px;
+}
+p5{
+  font-size: 50px
+}
+
+a{
+  color: grey;
 }
